@@ -25,7 +25,8 @@ pod 'SCDataStructure'
 
 ## 목차
 
-1. Stack
+- [1. Stack](https://github.com/interactord/SCDataStructure/wiki/%EC%8A%A4%ED%83%9D(Stack))
+- [2. Queue](https://github.com/interactord/SCDataStructure/wiki/%ED%81%90(Queue))
 
 ## Author
 
