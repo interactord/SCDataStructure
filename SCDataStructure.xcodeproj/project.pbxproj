@@ -7,102 +7,116 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		299D2D772301AC02008228FB /* SCDataStructure.h in Headers */ = {isa = PBXBuildFile; fileRef = 299D2D692301AC02008228FB /* SCDataStructure.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F426EBA0370BC5FF3B82AD47 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = F426EE1592AC93F5483D993B /* Stack.swift */; };
-		F426EDDBE5ACC772C888A089 /* StackSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = F426E7574216E74A1C32BA70 /* StackSpec.swift */; };
+		2932ECAE2301BBF100C77CC6 /* SCDataStructure.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2932ECA42301BBF100C77CC6 /* SCDataStructure.framework */; };
+		2932ECB52301BBF100C77CC6 /* SCDataStructure.h in Headers */ = {isa = PBXBuildFile; fileRef = 2932ECA72301BBF100C77CC6 /* SCDataStructure.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2932ECD82301BCE800C77CC6 /* StackSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2932ECD62301BCE800C77CC6 /* StackSpec.swift */; };
+		2932ECDF2301BCF000C77CC6 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2932ECDD2301BCF000C77CC6 /* Stack.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		299D2D712301AC02008228FB /* PBXContainerItemProxy */ = {
+		2932ECAF2301BBF100C77CC6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 299D2D5D2301AC02008228FB /* Project object */;
+			containerPortal = 2932EC9B2301BBF100C77CC6 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 299D2D652301AC02008228FB;
+			remoteGlobalIDString = 2932ECA32301BBF100C77CC6;
 			remoteInfo = SCDataStructure;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		299D2D692301AC02008228FB /* SCDataStructure.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCDataStructure.h; sourceTree = "<group>"; };
-		299D2D6A2301AC02008228FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		299D2D762301AC02008228FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F426E7574216E74A1C32BA70 /* StackSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StackSpec.swift; sourceTree = "<group>"; };
-		F426EE1592AC93F5483D993B /* Stack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
+		2932ECA42301BBF100C77CC6 /* SCDataStructure.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SCDataStructure.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2932ECA72301BBF100C77CC6 /* SCDataStructure.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCDataStructure.h; sourceTree = "<group>"; };
+		2932ECA82301BBF100C77CC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2932ECAD2301BBF100C77CC6 /* SCDataStructureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SCDataStructureTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2932ECB42301BBF100C77CC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2932ECD62301BCE800C77CC6 /* StackSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StackSpec.swift; sourceTree = "<group>"; };
+		2932ECDD2301BCF000C77CC6 /* Stack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		299D2D632301AC02008228FB /* Frameworks */ = {
+		2932ECA12301BBF100C77CC6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		299D2D6C2301AC02008228FB /* Frameworks */ = {
+		2932ECAA2301BBF100C77CC6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2932ECAE2301BBF100C77CC6 /* SCDataStructure.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		299D2D5C2301AC02008228FB = {
+		2932EC9A2301BBF100C77CC6 = {
 			isa = PBXGroup;
 			children = (
-				299D2D682301AC02008228FB /* SCDataStructure */,
-				299D2D732301AC02008228FB /* SCDataStructureTests */,
+				2932ECA62301BBF100C77CC6 /* SCDataStructure */,
+				2932ECB12301BBF100C77CC6 /* SCDataStructureTests */,
+				2932ECA52301BBF100C77CC6 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		299D2D682301AC02008228FB /* SCDataStructure */ = {
+		2932ECA52301BBF100C77CC6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				299D2D692301AC02008228FB /* SCDataStructure.h */,
-				299D2D6A2301AC02008228FB /* Info.plist */,
-				F426E608BF222C0D74A0F6D5 /* Sources */,
+				2932ECA42301BBF100C77CC6 /* SCDataStructure.framework */,
+				2932ECAD2301BBF100C77CC6 /* SCDataStructureTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2932ECA62301BBF100C77CC6 /* SCDataStructure */ = {
+			isa = PBXGroup;
+			children = (
+				2932ECD92301BCF000C77CC6 /* Sources */,
+				2932ECA72301BBF100C77CC6 /* SCDataStructure.h */,
+				2932ECA82301BBF100C77CC6 /* Info.plist */,
 			);
 			path = SCDataStructure;
 			sourceTree = "<group>";
 		};
-		299D2D732301AC02008228FB /* SCDataStructureTests */ = {
+		2932ECB12301BBF100C77CC6 /* SCDataStructureTests */ = {
 			isa = PBXGroup;
 			children = (
-				299D2D762301AC02008228FB /* Info.plist */,
-				F426E5287A92BBCD84CD4D69 /* Sources */,
+				2932ECD22301BCE800C77CC6 /* Sources */,
+				2932ECB42301BBF100C77CC6 /* Info.plist */,
 			);
 			path = SCDataStructureTests;
 			sourceTree = "<group>";
 		};
-		F426E1486C7C64938E3D363D /* Stack */ = {
+		2932ECD22301BCE800C77CC6 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				F426E7574216E74A1C32BA70 /* StackSpec.swift */,
+				2932ECD52301BCE800C77CC6 /* Stack */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		2932ECD52301BCE800C77CC6 /* Stack */ = {
+			isa = PBXGroup;
+			children = (
+				2932ECD62301BCE800C77CC6 /* StackSpec.swift */,
 			);
 			path = Stack;
 			sourceTree = "<group>";
 		};
-		F426E5287A92BBCD84CD4D69 /* Sources */ = {
+		2932ECD92301BCF000C77CC6 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				F426E1486C7C64938E3D363D /* Stack */,
+				2932ECDC2301BCF000C77CC6 /* Stack */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
 		};
-		F426E608BF222C0D74A0F6D5 /* Sources */ = {
+		2932ECDC2301BCF000C77CC6 /* Stack */ = {
 			isa = PBXGroup;
 			children = (
-				F426ED33D6B58E31C5EC97F9 /* Stack */,
-			);
-			path = Sources;
-			sourceTree = "<group>";
-		};
-		F426ED33D6B58E31C5EC97F9 /* Stack */ = {
-			isa = PBXGroup;
-			children = (
-				F426EE1592AC93F5483D993B /* Stack.swift */,
+				2932ECDD2301BCF000C77CC6 /* Stack.swift */,
 			);
 			path = Stack;
 			sourceTree = "<group>";
@@ -110,26 +124,26 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		299D2D612301AC02008228FB /* Headers */ = {
+		2932EC9F2301BBF100C77CC6 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				299D2D772301AC02008228FB /* SCDataStructure.h in Headers */,
+				2932ECB52301BBF100C77CC6 /* SCDataStructure.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		299D2D652301AC02008228FB /* SCDataStructure */ = {
+		2932ECA32301BBF100C77CC6 /* SCDataStructure */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 299D2D7A2301AC02008228FB /* Build configuration list for PBXNativeTarget "SCDataStructure" */;
+			buildConfigurationList = 2932ECB82301BBF100C77CC6 /* Build configuration list for PBXNativeTarget "SCDataStructure" */;
 			buildPhases = (
-				299D2D612301AC02008228FB /* Headers */,
-				299D2D622301AC02008228FB /* Sources */,
-				299D2D632301AC02008228FB /* Frameworks */,
-				299D2D642301AC02008228FB /* Resources */,
-				299D2D802301AC3F008228FB /* SwiftLint */,
+				2932EC9F2301BBF100C77CC6 /* Headers */,
+				2932ECA02301BBF100C77CC6 /* Sources */,
+				2932ECA12301BBF100C77CC6 /* Frameworks */,
+				2932ECA22301BBF100C77CC6 /* Resources */,
+				2932ECD12301BC9400C77CC6 /* SwiftLint */,
 			);
 			buildRules = (
 			);
@@ -137,70 +151,72 @@
 			);
 			name = SCDataStructure;
 			productName = SCDataStructure;
+			productReference = 2932ECA42301BBF100C77CC6 /* SCDataStructure.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		299D2D6E2301AC02008228FB /* SCDataStructureTests */ = {
+		2932ECAC2301BBF100C77CC6 /* SCDataStructureTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 299D2D7D2301AC02008228FB /* Build configuration list for PBXNativeTarget "SCDataStructureTests" */;
+			buildConfigurationList = 2932ECBB2301BBF100C77CC6 /* Build configuration list for PBXNativeTarget "SCDataStructureTests" */;
 			buildPhases = (
-				299D2D6B2301AC02008228FB /* Sources */,
-				299D2D6C2301AC02008228FB /* Frameworks */,
-				299D2D6D2301AC02008228FB /* Resources */,
+				2932ECA92301BBF100C77CC6 /* Sources */,
+				2932ECAA2301BBF100C77CC6 /* Frameworks */,
+				2932ECAB2301BBF100C77CC6 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				299D2D722301AC02008228FB /* PBXTargetDependency */,
+				2932ECB02301BBF100C77CC6 /* PBXTargetDependency */,
 			);
 			name = SCDataStructureTests;
 			productName = SCDataStructureTests;
+			productReference = 2932ECAD2301BBF100C77CC6 /* SCDataStructureTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		299D2D5D2301AC02008228FB /* Project object */ = {
+		2932EC9B2301BBF100C77CC6 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1030;
 				LastUpgradeCheck = 1030;
 				ORGANIZATIONNAME = "Scott Moon";
 				TargetAttributes = {
-					299D2D652301AC02008228FB = {
+					2932ECA32301BBF100C77CC6 = {
 						CreatedOnToolsVersion = 10.3;
 					};
-					299D2D6E2301AC02008228FB = {
+					2932ECAC2301BBF100C77CC6 = {
 						CreatedOnToolsVersion = 10.3;
 					};
 				};
 			};
-			buildConfigurationList = 299D2D602301AC02008228FB /* Build configuration list for PBXProject "SCDataStructure" */;
+			buildConfigurationList = 2932EC9E2301BBF100C77CC6 /* Build configuration list for PBXProject "SCDataStructure" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
-				Base,
 			);
-			mainGroup = 299D2D5C2301AC02008228FB;
+			mainGroup = 2932EC9A2301BBF100C77CC6;
+			productRefGroup = 2932ECA52301BBF100C77CC6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				299D2D652301AC02008228FB /* SCDataStructure */,
-				299D2D6E2301AC02008228FB /* SCDataStructureTests */,
+				2932ECA32301BBF100C77CC6 /* SCDataStructure */,
+				2932ECAC2301BBF100C77CC6 /* SCDataStructureTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		299D2D642301AC02008228FB /* Resources */ = {
+		2932ECA22301BBF100C77CC6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		299D2D6D2301AC02008228FB /* Resources */ = {
+		2932ECAB2301BBF100C77CC6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -210,7 +226,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		299D2D802301AC3F008228FB /* SwiftLint */ = {
+		2932ECD12301BC9400C77CC6 /* SwiftLint */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -231,34 +247,34 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		299D2D622301AC02008228FB /* Sources */ = {
+		2932ECA02301BBF100C77CC6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F426EBA0370BC5FF3B82AD47 /* Stack.swift in Sources */,
+				2932ECDF2301BCF000C77CC6 /* Stack.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		299D2D6B2301AC02008228FB /* Sources */ = {
+		2932ECA92301BBF100C77CC6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F426EDDBE5ACC772C888A089 /* StackSpec.swift in Sources */,
+				2932ECD82301BCE800C77CC6 /* StackSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		299D2D722301AC02008228FB /* PBXTargetDependency */ = {
+		2932ECB02301BBF100C77CC6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 299D2D652301AC02008228FB /* SCDataStructure */;
-			targetProxy = 299D2D712301AC02008228FB /* PBXContainerItemProxy */;
+			target = 2932ECA32301BBF100C77CC6 /* SCDataStructure */;
+			targetProxy = 2932ECAF2301BBF100C77CC6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		299D2D782301AC02008228FB /* Debug */ = {
+		2932ECB62301BBF100C77CC6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -310,7 +326,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -322,7 +338,7 @@
 			};
 			name = Debug;
 		};
-		299D2D792301AC02008228FB /* Release */ = {
+		2932ECB72301BBF100C77CC6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -368,7 +384,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -380,7 +396,7 @@
 			};
 			name = Release;
 		};
-		299D2D7B2301AC02008228FB /* Debug */ = {
+		2932ECB92301BBF100C77CC6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
@@ -406,7 +422,7 @@
 			};
 			name = Debug;
 		};
-		299D2D7C2301AC02008228FB /* Release */ = {
+		2932ECBA2301BBF100C77CC6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
@@ -432,9 +448,10 @@
 			};
 			name = Release;
 		};
-		299D2D7E2301AC02008228FB /* Debug */ = {
+		2932ECBC2301BBF100C77CC6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SCDataStructureTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -449,9 +466,10 @@
 			};
 			name = Debug;
 		};
-		299D2D7F2301AC02008228FB /* Release */ = {
+		2932ECBD2301BBF100C77CC6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SCDataStructureTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -469,34 +487,34 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		299D2D602301AC02008228FB /* Build configuration list for PBXProject "SCDataStructure" */ = {
+		2932EC9E2301BBF100C77CC6 /* Build configuration list for PBXProject "SCDataStructure" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				299D2D782301AC02008228FB /* Debug */,
-				299D2D792301AC02008228FB /* Release */,
+				2932ECB62301BBF100C77CC6 /* Debug */,
+				2932ECB72301BBF100C77CC6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		299D2D7A2301AC02008228FB /* Build configuration list for PBXNativeTarget "SCDataStructure" */ = {
+		2932ECB82301BBF100C77CC6 /* Build configuration list for PBXNativeTarget "SCDataStructure" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				299D2D7B2301AC02008228FB /* Debug */,
-				299D2D7C2301AC02008228FB /* Release */,
+				2932ECB92301BBF100C77CC6 /* Debug */,
+				2932ECBA2301BBF100C77CC6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		299D2D7D2301AC02008228FB /* Build configuration list for PBXNativeTarget "SCDataStructureTests" */ = {
+		2932ECBB2301BBF100C77CC6 /* Build configuration list for PBXNativeTarget "SCDataStructureTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				299D2D7E2301AC02008228FB /* Debug */,
-				299D2D7F2301AC02008228FB /* Release */,
+				2932ECBC2301BBF100C77CC6 /* Debug */,
+				2932ECBD2301BBF100C77CC6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 299D2D5D2301AC02008228FB /* Project object */;
+	rootObject = 2932EC9B2301BBF100C77CC6 /* Project object */;
 }
