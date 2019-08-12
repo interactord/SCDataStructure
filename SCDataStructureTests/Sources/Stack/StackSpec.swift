@@ -78,6 +78,8 @@ class StackSpec: XCTestCase {
 
 }
 
+// MARK: - ExpressibleByArrayLiteral
+
 extension StackSpec {
 	func test_expressibleByArrayLiteral_init() {
 		var list: Stack<Int> = [10, 20, 30]
@@ -107,4 +109,19 @@ extension StackSpec {
 		XCTAssertNil(list.peek)
 
 	}
+}
+
+// MARK: - ExpressibleByArrayLiteral
+
+extension StackSpec {
+		func test_makeIterator() {
+			let list: Stack<Int> = [10, 20, 30]
+
+			var resultList = [Int]()
+			for element in list {
+				resultList.append(element)
+			}
+
+			XCTAssertEqual(resultList, [30, 20, 10])
+		}
 }
