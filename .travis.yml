@@ -10,10 +10,13 @@ env:
     - DESTINATION="platform=iOS Simulator,name=iPhone 7,OS=12.2"
     - FRAMEWORK="SCDataStructure"
 
-before_install:
-  - brew install swiftlint
+install:
+  - swift --version
+
+before_script:
   - gem install xcpretty -N
   - gem install xcpretty-travis-formatter
+  - brew install swiftlint
 
 script:
   - set -o pipefail
@@ -28,3 +31,7 @@ script:
 
 after_success:
   - bash <(curl -s https://codecov.io/bash) -j SCDataStructure --cover-xml
+
+notifications:
+  slack: interactord:Z4o1u31lio6owH5ic2qWuSGo
+  on_success: always
