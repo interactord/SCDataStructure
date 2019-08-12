@@ -5,20 +5,27 @@
 [![License](https://img.shields.io/cocoapods/l/SCDataStructure.svg?style=flat)](https://cocoapods.org/pods/SCDataStructure)
 [![Platform](https://img.shields.io/cocoapods/p/SCDataStructure.svg?style=flat)](https://cocoapods.org/pods/SCDataStructure)
 
-## Example
+## Wellcome
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+해당 프로젝트는 기본적인 자료구조와 알고리즘을 구현한 프로젝트입니다.
 
-## Requirements
+## 필수 사항
 
-## Installation
+- iOS12.2 +
+- XCode10.2 +
 
-SCDataStructure is available through [CocoaPods](https://cocoapods.org). To install
-it, simply add the following line to your Podfile:
+## 인스톨 방법
+
+SCDataStructure는 cocoapod [CocoaPods](https://cocoapods.org)으로 해당 라이브러리를 설치가 가능합니다.
+Podfile에 아래의 코드를 추가하고 pod install 하시길 바랍니다.
 
 ```ruby
 pod 'SCDataStructure'
 ```
+
+## 목차
+
+1. Stack
 
 ## Author
 
