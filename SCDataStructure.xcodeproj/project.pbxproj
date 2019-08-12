@@ -11,6 +11,8 @@
 		2932ECB52301BBF100C77CC6 /* SCDataStructure.h in Headers */ = {isa = PBXBuildFile; fileRef = 2932ECA72301BBF100C77CC6 /* SCDataStructure.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2932ECD82301BCE800C77CC6 /* StackSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2932ECD62301BCE800C77CC6 /* StackSpec.swift */; };
 		2932ECDF2301BCF000C77CC6 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2932ECDD2301BCF000C77CC6 /* Stack.swift */; };
+		F426E3E94AE4339F128572E2 /* ArrayIteratorSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = F426E5EB2F3C08D347BC0315 /* ArrayIteratorSpec.swift */; };
+		F426ED04AB4D090D1DFE753F /* ArrayIterator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F426E48FE39D3A6281B6EEA2 /* ArrayIterator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +33,8 @@
 		2932ECB42301BBF100C77CC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2932ECD62301BCE800C77CC6 /* StackSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StackSpec.swift; sourceTree = "<group>"; };
 		2932ECDD2301BCF000C77CC6 /* Stack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
+		F426E48FE39D3A6281B6EEA2 /* ArrayIterator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayIterator.swift; sourceTree = "<group>"; };
+		F426E5EB2F3C08D347BC0315 /* ArrayIteratorSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayIteratorSpec.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				2932ECD52301BCE800C77CC6 /* Stack */,
+				F426E0F1192C341C40FE295C /* ArrayIterator */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -109,6 +114,7 @@
 			isa = PBXGroup;
 			children = (
 				2932ECDC2301BCF000C77CC6 /* Stack */,
+				F426E387B0FDC7E5D3949BAB /* ArrayIterator */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -119,6 +125,22 @@
 				2932ECDD2301BCF000C77CC6 /* Stack.swift */,
 			);
 			path = Stack;
+			sourceTree = "<group>";
+		};
+		F426E0F1192C341C40FE295C /* ArrayIterator */ = {
+			isa = PBXGroup;
+			children = (
+				F426E5EB2F3C08D347BC0315 /* ArrayIteratorSpec.swift */,
+			);
+			path = ArrayIterator;
+			sourceTree = "<group>";
+		};
+		F426E387B0FDC7E5D3949BAB /* ArrayIterator */ = {
+			isa = PBXGroup;
+			children = (
+				F426E48FE39D3A6281B6EEA2 /* ArrayIterator.swift */,
+			);
+			path = ArrayIterator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -252,6 +274,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2932ECDF2301BCF000C77CC6 /* Stack.swift in Sources */,
+				F426ED04AB4D090D1DFE753F /* ArrayIterator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +283,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2932ECD82301BCE800C77CC6 /* StackSpec.swift in Sources */,
+				F426E3E94AE4339F128572E2 /* ArrayIteratorSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
