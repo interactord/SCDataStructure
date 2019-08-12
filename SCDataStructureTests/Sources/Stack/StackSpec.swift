@@ -123,10 +123,10 @@ extension StackSpec {
       resultList.append(element)
     }
 
-    XCTAssertEqual(resultList, [10, 20, 30])
+    XCTAssertEqual(resultList, [30, 20, 10])
   }
 
-	func test_composite_stack() {
+	func test_case1_composite_stack() {
 		let list = [4, 5, 6, 7]
 
 		var stack = Stack<Int>(list)
@@ -135,7 +135,21 @@ extension StackSpec {
 
 		stack.push(8)
 		XCTAssertEqual(stack.description, "[4, 5, 6, 7, 8]")
+	}
 
+	func test_case2_composite_stack() {
+
+    let stack1 = Stack<Int>([4, 5, 6, 7])
+		var stack2 = Stack<Int>()
+
+		for element in stack1 {
+			stack2.push(element)
+		}
+
+		XCTAssertEqual(stack2.description, "[7, 6, 5, 4]")
+
+		stack2.push(8)
+		XCTAssertEqual(stack2.description, "[7, 6, 5, 4, 8]")
 	}
 
 }

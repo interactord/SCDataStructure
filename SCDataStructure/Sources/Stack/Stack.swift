@@ -54,7 +54,9 @@ extension Stack: ExpressibleByArrayLiteral {
 }
 
 extension Stack: Sequence {
-  public func makeIterator() -> ArrayIterator<T> {
-    return ArrayIterator<T>(elements)
-  }
+  public func makeIterator() -> AnyIterator<T> {
+    return AnyIterator(
+			IndexingIterator(_elements: elements.lazy.reversed())
+		)
+	}
 }
