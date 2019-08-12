@@ -19,3 +19,11 @@ public struct ArrayIterator<T>: IteratorProtocol {
   }
 
 }
+
+extension ArrayIterator {
+
+  public init<S: Sequence>(_ s: S) where S.Iterator.Element == T {
+    self.currentElement = Array(s.reversed())
+  }
+
+}

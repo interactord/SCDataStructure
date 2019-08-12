@@ -55,6 +55,6 @@ extension Stack: ExpressibleByArrayLiteral {
 
 extension Stack: Sequence {
   public func makeIterator() -> ArrayIterator<T> {
-    return ArrayIterator<T>(elements: self.elements)
+    return ArrayIterator<T>(elements)
   }
 }
