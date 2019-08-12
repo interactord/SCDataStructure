@@ -6,16 +6,7 @@ comment:
 
 coverage:
   ignore:
-  - Carthage/.*
-  - Carthage/.*
-  - Pods/.*
-  - .*Tests.swift
-  - .*Spec.swift
-  - .Stub*.swift
-  - .*Mock.swift
-  - RemakeStoreTests/*
-  - SCServiceKitTests/*
-  - SCLayoutKitTests/*
+  - SCDataStructureTests/.*
   
   status:
     patch: false

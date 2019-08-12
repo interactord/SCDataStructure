@@ -11,8 +11,6 @@ env:
     - FRAMEWORK="SCDataStructure"
 
 before_install:
-  - brew install carthage || true
-  - brew outdated carthage || brew upgrade carthage
   - brew install swiftlint
   - gem install xcpretty -N
   - gem install xcpretty-travis-formatter
@@ -30,3 +28,5 @@ script:
 
 after_success:
   - bash <(curl -s https://codecov.io/bash) -j SCDataStructure --cover-xml
+
+  xcodebuild clean build test -project "SCDataStructure.xcodeproj" -scheme "SCDataStructure" -sdk "iphonesimulator12.4" -destination "platform=iOS Simulator,name=iPhone 7,OS=12.4" -configuration Debug -enableCodeCoverage YES CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO | xcpretty 

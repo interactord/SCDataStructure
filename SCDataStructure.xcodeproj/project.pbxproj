@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		299D2D702301AC02008228FB /* SCDataStructure.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 299D2D662301AC02008228FB /* SCDataStructure.framework */; };
 		299D2D772301AC02008228FB /* SCDataStructure.h in Headers */ = {isa = PBXBuildFile; fileRef = 299D2D692301AC02008228FB /* SCDataStructure.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F426EBA0370BC5FF3B82AD47 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = F426EE1592AC93F5483D993B /* Stack.swift */; };
 		F426EDDBE5ACC772C888A089 /* StackSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = F426E7574216E74A1C32BA70 /* StackSpec.swift */; };
@@ -24,10 +23,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		299D2D662301AC02008228FB /* SCDataStructure.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SCDataStructure.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		299D2D692301AC02008228FB /* SCDataStructure.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCDataStructure.h; sourceTree = "<group>"; };
 		299D2D6A2301AC02008228FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		299D2D6F2301AC02008228FB /* SCDataStructureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SCDataStructureTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		299D2D762301AC02008228FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F426E7574216E74A1C32BA70 /* StackSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StackSpec.swift; sourceTree = "<group>"; };
 		F426EE1592AC93F5483D993B /* Stack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
@@ -45,7 +42,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				299D2D702301AC02008228FB /* SCDataStructure.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -57,17 +53,7 @@
 			children = (
 				299D2D682301AC02008228FB /* SCDataStructure */,
 				299D2D732301AC02008228FB /* SCDataStructureTests */,
-				299D2D672301AC02008228FB /* Products */,
 			);
-			sourceTree = "<group>";
-		};
-		299D2D672301AC02008228FB /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				299D2D662301AC02008228FB /* SCDataStructure.framework */,
-				299D2D6F2301AC02008228FB /* SCDataStructureTests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		299D2D682301AC02008228FB /* SCDataStructure */ = {
@@ -151,7 +137,6 @@
 			);
 			name = SCDataStructure;
 			productName = SCDataStructure;
-			productReference = 299D2D662301AC02008228FB /* SCDataStructure.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		299D2D6E2301AC02008228FB /* SCDataStructureTests */ = {
@@ -169,7 +154,6 @@
 			);
 			name = SCDataStructureTests;
 			productName = SCDataStructureTests;
-			productReference = 299D2D6F2301AC02008228FB /* SCDataStructureTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -199,7 +183,6 @@
 				Base,
 			);
 			mainGroup = 299D2D5C2301AC02008228FB;
-			productRefGroup = 299D2D672301AC02008228FB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
