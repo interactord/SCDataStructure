@@ -11,6 +11,8 @@
 		2932ECB52301BBF100C77CC6 /* SCDataStructure.h in Headers */ = {isa = PBXBuildFile; fileRef = 2932ECA72301BBF100C77CC6 /* SCDataStructure.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2932ECD82301BCE800C77CC6 /* StackSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2932ECD62301BCE800C77CC6 /* StackSpec.swift */; };
 		2932ECDF2301BCF000C77CC6 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2932ECDD2301BCF000C77CC6 /* Stack.swift */; };
+		F426EB51AAE215491064BE88 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = F426E2D56634A7AB5B7B2689 /* Queue.swift */; };
+		F426EDA4BF2B931704A492F4 /* QueueSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = F426ED728C478F481936285E /* QueueSpec.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +33,8 @@
 		2932ECB42301BBF100C77CC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2932ECD62301BCE800C77CC6 /* StackSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StackSpec.swift; sourceTree = "<group>"; };
 		2932ECDD2301BCF000C77CC6 /* Stack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
+		F426E2D56634A7AB5B7B2689 /* Queue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
+		F426ED728C478F481936285E /* QueueSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QueueSpec.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				2932ECD52301BCE800C77CC6 /* Stack */,
+				F426EFE30E388A46A016AA9C /* Queue */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -109,6 +114,7 @@
 			isa = PBXGroup;
 			children = (
 				2932ECDC2301BCF000C77CC6 /* Stack */,
+				F426E77658D46A8588A7882A /* Queue */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -119,6 +125,22 @@
 				2932ECDD2301BCF000C77CC6 /* Stack.swift */,
 			);
 			path = Stack;
+			sourceTree = "<group>";
+		};
+		F426E77658D46A8588A7882A /* Queue */ = {
+			isa = PBXGroup;
+			children = (
+				F426E2D56634A7AB5B7B2689 /* Queue.swift */,
+			);
+			path = Queue;
+			sourceTree = "<group>";
+		};
+		F426EFE30E388A46A016AA9C /* Queue */ = {
+			isa = PBXGroup;
+			children = (
+				F426ED728C478F481936285E /* QueueSpec.swift */,
+			);
+			path = Queue;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,6 +218,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 2932EC9A2301BBF100C77CC6;
 			productRefGroup = 2932ECA52301BBF100C77CC6 /* Products */;
@@ -252,6 +275,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2932ECDF2301BCF000C77CC6 /* Stack.swift in Sources */,
+				F426EB51AAE215491064BE88 /* Queue.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +284,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2932ECD82301BCE800C77CC6 /* StackSpec.swift in Sources */,
+				F426EDA4BF2B931704A492F4 /* QueueSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
