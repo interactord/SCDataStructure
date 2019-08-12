@@ -12,7 +12,7 @@ public struct Stack<T> {
 		elements = [T]()
 	}
 
-	fileprivate init(_ elements: [T]) {
+	public init(_ elements: [T]) {
 		self.elements = elements
 	}
 

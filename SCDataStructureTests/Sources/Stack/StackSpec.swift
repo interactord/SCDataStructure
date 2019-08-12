@@ -126,4 +126,16 @@ extension StackSpec {
     XCTAssertEqual(resultList, [10, 20, 30])
   }
 
+	func test_composite_stack() {
+		let list = [4, 5, 6, 7]
+
+		var stack = Stack<Int>(list)
+
+		XCTAssertEqual(stack.description, "[4, 5, 6, 7]")
+
+		stack.push(8)
+		XCTAssertEqual(stack.description, "[4, 5, 6, 7, 8]")
+
+	}
+
 }
