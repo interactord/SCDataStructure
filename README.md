@@ -1,6 +1,7 @@
 # SCDataStructure
 
 [![CI Status](https://img.shields.io/travis/interactord/SCDataStructure.svg?style=flat)](https://travis-ci.org/interactord/SCDataStructure)
+[![codecov](https://codecov.io/gh/interactord/SalonManager/branch/master/graph/badge.svg)](https://codecov.io/gh/interactord/SCDataStructure)
 [![Version](https://img.shields.io/cocoapods/v/SCDataStructure.svg?style=flat)](https://cocoapods.org/pods/SCDataStructure)
 [![License](https://img.shields.io/cocoapods/l/SCDataStructure.svg?style=flat)](https://cocoapods.org/pods/SCDataStructure)
 [![Platform](https://img.shields.io/cocoapods/p/SCDataStructure.svg?style=flat)](https://cocoapods.org/pods/SCDataStructure)
