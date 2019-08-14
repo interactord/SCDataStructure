@@ -29,6 +29,7 @@ pod 'SCDataStructure'
 - [1. Stack](https://github.com/interactord/SCDataStructure/wiki/%EC%8A%A4%ED%83%9D(Stack))
 - [2. Queue](https://github.com/interactord/SCDataStructure/wiki/%ED%81%90(Queue))
 - [3. CircleStack](https://github.com/interactord/SCDataStructure/wiki/%EC%88%9C%ED%99%98%EB%B2%84%ED%8D%BC-(Circle-buffer))
+- [4. PriorityQueue](https://github.com/interactord/SCDataStructure/wiki/%EC%9A%B0%EC%84%A0%EC%88%9C%EC%9C%84-%ED%81%90-(Priory-Queue))
 
 ## Author
 
