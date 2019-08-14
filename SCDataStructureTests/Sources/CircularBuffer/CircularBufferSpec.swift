@@ -17,7 +17,7 @@ class CircularBufferSpec: XCTestCase {
   }
 
   func test_case1_init() {
-    var sut = CircularBuffer<Int>(withCapacity: -1)
+    let sut = CircularBuffer<Int>(withCapacity: -1)
 
     XCTAssertNotEqual(sut.capacity, -1)
     XCTAssertEqual(sut.capacity, 16)
@@ -25,14 +25,14 @@ class CircularBufferSpec: XCTestCase {
   }
 
   func test_case2_init() {
-    var sut = CircularBuffer<Int>(withCapacity: 3)
+    let sut = CircularBuffer<Int>(withCapacity: 3)
 
     XCTAssertNotEqual(sut.capacity, 3)
     XCTAssertEqual(sut.capacity, 4)
   }
 
   func test_case3_init() {
-    var sut = CircularBuffer<Int>(withCapacity: 10)
+    let sut = CircularBuffer<Int>(withCapacity: 10)
 
     XCTAssertNotEqual(sut.capacity, 10)
     XCTAssertEqual(sut.capacity, 16)
@@ -160,7 +160,7 @@ extension CircularBufferSpec {
 
 extension CircularBufferSpec {
   func test_case1_expressibleByArrayLiteral_init() {
-    var sut: CircularBuffer<Int> = [10, 20, 30, 40]
+    let sut: CircularBuffer<Int> = [10, 20, 30, 40]
 
     XCTAssertEqual(sut.capacity, 4)
     XCTAssertEqual(sut.count, 4)

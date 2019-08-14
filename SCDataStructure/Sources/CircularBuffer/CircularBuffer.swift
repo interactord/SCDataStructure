@@ -122,14 +122,7 @@ public struct CircularBuffer<T> {
 
   /// 버퍼의 용량을 반환 또는 변경
   public var capacity: Int {
-    get {
-      return data.capacity
-    }
-    set {
-      if data.capacity != newValue {
-        data.reserveCapacity(newValue)
-      }
-    }
+    return data.capacity
   }
 
   /// 현재 버퍼가 가득차있는지 확인
