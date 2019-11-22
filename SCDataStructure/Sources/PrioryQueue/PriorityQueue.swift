@@ -12,7 +12,7 @@ public struct PriorityQueue<T: Comparable> {
 
   /// 초기화 메서드
   public init(ascending: Bool = false, startingValues: [T] = []) {
-    ordered = ascending ? { $0 > $1 }: { $0 < $1 }
+    ordered = ascending ? { $0 > $1 } : { $0 < $1 }
     heap = startingValues
 
     var idx = heap.count / 2 - 1
@@ -27,7 +27,7 @@ public struct PriorityQueue<T: Comparable> {
     return heap.count
   }
 
-  /// 우선순위 큐가 빈경으, true 를 반환
+  /// 우선순위 큐가 빈 경우, true 를 반환
   public var isEmpty: Bool {
     return heap.isEmpty
   }
