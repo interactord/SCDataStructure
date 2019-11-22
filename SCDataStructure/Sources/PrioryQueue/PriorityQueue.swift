@@ -46,7 +46,7 @@ public struct PriorityQueue<T: Comparable> {
   }
 
   /// 최우선 순위를 제거하고 제거된 요소를 반환
-  /// - Return Param: 큐의 최우선 순위를 요소 또는 우선 순위 큐가 비어있을 경, nil 반환
+  /// - Return Param: 큐의 최우선 순위를 요소 또는 우선 순위 큐가 비어있을 경우, nil 반환
   public mutating func pop() -> T? {
     if isEmpty {
       return nil
